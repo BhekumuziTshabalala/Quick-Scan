@@ -1,4 +1,4 @@
-# Sonic Scan
+# Quick Scan
 
 A fast and secure payment solution that enables merchants to scan QR codes to receive payments.
 
