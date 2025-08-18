@@ -21,7 +21,6 @@ ENV/
 *.swo
 
 # PyCharm
-.idea/
 *.iml
 
 # Jupyter Notebook
