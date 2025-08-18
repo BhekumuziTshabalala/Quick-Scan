@@ -18,7 +18,7 @@ Sonic Scan simplifies the payment process for merchants by providing a streamlin
 
 ```python
 # Clone the repository
-git clone https://github.com/yourusername/sonic-scan.git
+git clone https://github.com/BhekumuziTshabalala/sonic-scan.git
 
 # Navigate to project directory
 cd sonic-scan
