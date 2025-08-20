@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Hero.module.css';
+import './Hero.css';
 
 interface HeroProps {
     onOpenAuth: (userType: 'customer' | 'merchant') => void;
@@ -21,13 +21,16 @@ export default function Hero({ onOpenAuth }: HeroProps) {
                     <button
                         onClick={() => onOpenAuth('customer')}
                         className= "buttons primary">
+
                         Send Money
+
                     </button>
                     <button
                         onClick={() => onOpenAuth('merchant')}
-                        className="button secondary"
-                    >
+                        className="button secondary">
+
                         Accept Payments
+
                     </button>
                 </div>
             </div>
