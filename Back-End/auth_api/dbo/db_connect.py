@@ -55,8 +55,9 @@ class BalanceHistory(Base):
     reason = Column(String(255))
     created_at = Column(TIMESTAMP, default=datetime)
 
+
 # ---------- DATABASE CONNECTION ----------
-engine = create_engine("sqlite:///payment_platform.db", echo=True)
+engine = create_engine("sqlite:///../resources/payment_platform.db", echo=True)
 Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
