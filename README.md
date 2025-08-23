@@ -37,6 +37,8 @@ python main.py
 - PyQt5 (for GUI)
 - pyzbar
 - requests
+- FastAPI
+
 
 ## Usage
 
